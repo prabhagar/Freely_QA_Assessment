@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://app.freely.me",
+  "validUser": {
+    "email": "prabhagartamizhselvan@example.com",
+    "password": "your-valid-password"
+  },
+  "invalidUser": {
+    "email": "invalid@example.com",
+    "password": "wrongpassword"
+  },
+  "navLinks": [
+    { "name": "Home", "path": "/" },
+    { "name": "About", "path": "/about" },
+    { "name": "Contact", "path": "/contact" }
+  ]
+}
