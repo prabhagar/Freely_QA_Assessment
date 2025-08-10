@@ -1,0 +1,48 @@
+{
+  "baseUrl": "https://app.freely.me/",
+  "viewport": {
+    "mobile": {
+      "width": 375,
+      "height": 667
+    }
+  },
+  "au": {
+    "urlFragment": "/au/",
+    "tripDestinationsUrlFragment": "/au/trip-destinations",
+    "texts": {
+      "country": "Australia",
+      "heading": "Where are you going?",
+      "residencyInfo": "Your residency is set to Australia - Change",
+      "notificationTitle": "Stopping over somewhere?",
+      "buttonNext": "Next",
+      "cityToType": "Melbourne",
+      "homepageMessages1": "Choose your country of residency.",
+      "homepageMessages2": "Please note you will need to get a new quote when you switch regions.",
+      "homepageMessages3": "Your residency is set to Australia - Change"
+
+    },
+    "selectors": {
+      "dropdownInput": "[data-testid=\"dropdown-input\"]",
+      "selectedDestinationButtonMelbourne": "[data-testid=\"selected-country-destination-button-melbourne\"]",
+      "notificationTitle": "[data-testid=\"notification-title\"]"
+    }
+  },
+  "us": {
+    "urlFragment": "/us/state-of-residence",
+    "texts": {
+      "country": "USA",
+      "residencyInfo": "Your residency is set to USA",
+      "travelingSoon": "Traveling soon?",
+      "buttonNext": "Next",
+      "stateToType": "California"
+    },
+    "selectors": {
+      "dropdownInput": "[data-testid=\"dropdown-input\"]"
+    }
+  },
+  "timeouts": {
+    "urlCheck": 10000,
+    "elementVisibility": 10000
+  },
+  "waitTime": 1000
+}
